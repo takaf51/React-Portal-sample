@@ -20,7 +20,7 @@ const ModalOverlay = ({discardError}) => {
 			<div className='flex flex-wrap flex-col w-64 h-36 bg-red-200 rounded-xl overflow-hidden shadow-lg  pointer-events-auto'>
 				<p className='w-full bg-purple-900 text-white p-3 text-xl font-bold'>Invalid Input</p>
 				<p className='p-3'>Please Input Any Goal. </p>
-				<button onClick={discardError} className='w-max px-3 py-1 bg-purple-600 text-white self-end mr-3 rounded-lg'>OK</button>
+				<button onClick={discardError} className='w-max px-3 py-1 bg-purple-600 text-white self-end mr-3 rounded-lg'>-OK-</button>
 			</div>
 		</div>
 	);
